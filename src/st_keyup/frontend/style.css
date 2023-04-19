@@ -38,21 +38,21 @@ label {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
-  border-left-width: 2px;
-  border-right-width: 2px;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
   border-top-style: solid;
   border-bottom-style: solid;
   transition-property: border;
   transition-timing-function: cubic-bezier(0.2, 0.8, 0.4, 1);
-  border-left-color: rgb(240, 242, 246);
-  border-right-color: rgb(240, 242, 246);
-  border-top-color: rgb(240, 242, 246);
-  border-bottom-color: rgb(240, 242, 246);
-  background-color: rgb(240, 242, 246);
+  /* border-left-color: rgb(150, 213, 255);
+  border-right-color: rgb(150, 213, 255);
+  border-top-color: rgb(150, 213, 255);
+  border-bottom-color: rgb(150, 213, 255);
+  background-color: rgb(240, 242, 246); */
   position: absolute;
   left: 0;
   right: 0;
@@ -109,10 +109,10 @@ input {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
-  border-left-width: 2px;
-  border-right-width: 2px;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
   border-top-style: solid;
@@ -122,10 +122,10 @@ input {
   background-color: rgb(240, 242, 246);
   padding-left: 0px;
   padding-right: 0px;
-  border-left-color: rgb(255, 75, 75);
-  border-right-color: rgb(255, 75, 75);
-  border-top-color: rgb(255, 75, 75);
-  border-bottom-color: rgb(255, 75, 75);
+  border-left-color: rgb(150, 213, 255);
+  border-right-color: rgb(150, 213, 255);
+  border-top-color: rgb(150, 213, 255);
+  border-bottom-color: rgb(150, 213, 255);
 }
 .disabled label {
   color: rgba(49, 51, 63, 0.4) !important;
